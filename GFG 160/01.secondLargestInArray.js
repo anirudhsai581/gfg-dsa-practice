@@ -1,3 +1,13 @@
+   /*  qn:
+    
+    Given an array of positive integers arr[] of size n, the task is to find second largest "distinct" element in the array.
+    Input: arr[] = [12, 35, 1, 10, 34, 1]  Output: 34
+    
+    approach 1 : sorting in non decreasing order and then finding element which is not equal to n-1 element of array.
+    approach 2: Two pass search : iterating the array twice in once finding the largest element in another finding largest which is not equal to earlier largest
+    approach 3: one pass search : Iterate once but we keep track of largest and second largest using two variables , if arr[i] >first then first=arr[i] and second will be assigned first 
+                 and if we find any number less than first but greater than second we assign it to second
+   */
     function getSecondLargest(arr) {
         // code here
         let first =-Infinity;

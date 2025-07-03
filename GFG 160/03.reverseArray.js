@@ -6,7 +6,7 @@
     
        function  goodReverseArray(arr) {
         // your code here
-        //storing 0-> k numbers in places of n ->n+k
+       
         //both odd and even lengths will work correctly without any explicit handling
         //when n is odd middle number will be inplace all before it will be swapped with all after it
         //when n is even first half numbers will be swapped with second half
